@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background: #444;
+  padding: 0.8rem;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0.8rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background: #6e8efb;
+  color: white;
+}
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #333;
+  color: #fff;
+}
+
+#div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+}
+
+#div img {
+  max-width: 100%;
+  margin-top: 0%;
+}
+
+#ft {
+  flex: 1;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media screen and (max-width: 423px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #div {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+#ad {
+  color: blue;
+  font-size: 1.5rem;
+}
+
+#scl {
+  font-size: 1.5rem;
+  color: green;
+}
+
+#clz {
+  font-size: 1.5rem;
+  color: red;
+}
+
+#aaa {
+  margin-left: 2%;
+  padding: 20px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#h1 {
+  text-shadow: 5px 2px 5px red;
+}
+
+#center {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 428px) {
+  #center {
+    display: flex;
+    flex-direction: column;
+  }
+}
